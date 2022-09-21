@@ -12,10 +12,10 @@ import github from "./assets/techstack/github.png";
 import npm from "./assets/techstack/npm.png";
 import figma from "./assets/techstack/figma.png";
 
-// Porject Images
-import projectImage1 from "./assets/projects/project1.png";
-import projectImage2 from "./assets/projects/project2.png";
-import projectImage3 from "./assets/projects/project3.png";
+// Award Images
+import awardImage1 from "./assets/award/award1.png";
+import awardImage2 from "./assets/award/award2.png";
+import awardImage3 from "./assets/award/award3.png";
 
 // Personal Details
 export const personalDetails = {
@@ -90,23 +90,23 @@ export const techStackDetails = {
   figma: figma,
 };
 
-// Project Details
-export const projectDetails = [
+// Award Details
+export const awardDetails = [
   {
     title: "HTML dan CSS Dasar",
-    image: projectImage1,
+    image: awardImage1,
     description: `Course Self Paced Learning at Hacktiv8 Indonesia - React and React Native For Front End Developer`,
     techstack: "HTML, CSS",
   },
   {
     title: "ES6 JavaScript",
-    image: projectImage2,
+    image: awardImage2,
     description: `Course Self Paced Learning at Hacktiv8 Indonesia - React and React Native For Front End Developer`,
     techstack: "Javascript",
   },
   {
     title: "Styling Component React",
-    image: projectImage3,
+    image: awardImage3,
     description: `Course Self Paced Learning at Hacktiv8 Indonesia - React and React Native For Front End Developer`,
     techstack: "Bootstrap, React, Javascript",
   },
